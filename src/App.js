@@ -1,13 +1,10 @@
 import "./App.css";
-import TestingComponent from "./TestingComponent";
+import LoadMoreData from "./components/load-more-data/index.jsx";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>yousif</h1>
-      <TestingComponent />
-    </div>
+    <main>
+      <LoadMoreData />
+    </main>
   );
 }
-
-export default App;
